@@ -3,7 +3,7 @@ package db
 import (
 	"log"
 	"time"
-	"github.com/2byn-server/model"
+	"../model"
 )
 
 func InsertNewProduct(newProduct *model.Product) (*model.Product, error) {

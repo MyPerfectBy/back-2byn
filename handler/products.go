@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/2byn-server/db"
-	"github.com/2byn-server/model"
+	"../db"
+	"../model"
 	"github.com/Jeffail/gabs"
 	"github.com/gorilla/mux"
 	"gopkg.in/telegram-bot-api.v4"

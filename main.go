@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/2byn-server/db"
-	"github.com/2byn-server/handler"
+	"./db"
+	"./handler"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"net/http"
